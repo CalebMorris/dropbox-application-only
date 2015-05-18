@@ -1,0 +1,27 @@
+{
+  "name": "dropbox-application-only",
+  "version": "0.0.1",
+  "description": "Dropbox application only through OAuth 2 Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CalebMorris/dropbox-application-only.git"
+  },
+  "keywords": [
+    "dropbox",
+    "application",
+    "only",
+    "oauth2",
+    "simple",
+    "wrapper"
+  ],
+  "author": "Caleb G Morris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CalebMorris/dropbox-application-only/issues"
+  },
+  "homepage": "https://github.com/CalebMorris/dropbox-application-only#readme"
+}
