@@ -2,9 +2,13 @@
   "name": "dropbox-application-only",
   "version": "0.0.1",
   "description": "Dropbox application only through OAuth 2 Token",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "npm run dist",
+    "clean": "rm -Rf ./dist ./coverage",
+    "dist": "npm run clean && ./node_modules/.bin/babel src/ --modules common --out-dir dist",
+    "lint": "./node_modules/.bin/eslint --ext .js .",
+    "lint-quiet": "./node_modules/.bin/eslint --ext .js --quiet ."
   },
   "repository": {
     "type": "git",
@@ -18,10 +22,23 @@
     "simple",
     "wrapper"
   ],
-  "author": "Caleb G Morris",
+  "author": {
+    "name": "Caleb Morris",
+    "email": "caleb.morris.g@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CalebMorris/dropbox-application-only/issues"
   },
-  "homepage": "https://github.com/CalebMorris/dropbox-application-only#readme"
+  "homepage": "https://github.com/CalebMorris/dropbox-application-only#readme",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "bluebird": "^2.9.21",
+    "joi": "^6.0.8",
+    "lodash": "^3.6.0",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.18.0"
+  }
 }
