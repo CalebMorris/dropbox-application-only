@@ -1,6 +1,6 @@
 {
   "name": "dropbox-application-only",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dropbox application only through OAuth 2 Token",
   "main": "dist/index.js",
   "scripts": {
