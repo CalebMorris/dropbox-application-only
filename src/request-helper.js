@@ -12,7 +12,7 @@ function sendRequest(url, token, method) {
   return new Promise((resolve, reject) => {
 
     const options = {
-      headers : { 'Authorization' : `Bearer ${token}` },
+      headers : { Authorization : `Bearer ${token}` },
       url : url,
       method : method,
     };
