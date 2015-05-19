@@ -24,7 +24,7 @@ function sendRequest(url, token, method) {
 
       } else if (response.statusCode !== 200) {
 
-        return reject(response);
+        return reject({ statusCode : response.statusCode, message : JSON.parse(body) });
 
       }
 
