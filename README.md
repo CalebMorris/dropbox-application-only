@@ -31,4 +31,10 @@ client.metadata()
 
 ```
 
+# Supported API
+
+- [account/info](https://www.dropbox.com/developers/core/docs#account-info)
+- [files](https://www.dropbox.com/developers/core/docs#files-GET)
+- [metadata](https://www.dropbox.com/developers/core/docs#metadata)
+
 # Note : This project is in early revisions and is subject to change.
