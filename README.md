@@ -7,6 +7,12 @@ This methodology doesn't require user acknowledgement beyond intial config
 
 [How to generate a OAuth2 Token](https://blogs.dropbox.com/developers/2014/05/generate-an-access-token-for-your-own-account/)
 
+# Install
+
+For Node
+
+`npm install`
+
 # Example
 
 ```javascript
