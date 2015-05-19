@@ -30,7 +30,7 @@
     "no-console": [ 2, "always" ],
 
     // best practices
-    "consistent-return": [ 2 ], // @todo remove (should be error)
+    "consistent-return": [ 2 ],
     "default-case": [ 2 ],
     "guard-for-in": [ 2 ],
     "no-else-return": [ 2 ],
@@ -48,8 +48,8 @@
 
     // variables
     "no-catch-shadow": [ 2 ],
-    "no-undefined": [ 2 ], // @todo change to error
-    "no-unused-vars": [ 2, {"args": "none"} ], // @todo remove (change to error)
+    "no-undefined": [ 2 ],
+    "no-unused-vars": [ 2, {"args": "none"} ],
 
     // node environment
     "no-mixed-requires": [ 2 ],
@@ -60,7 +60,7 @@
     // style
     "indent": [ 2, 2, { "indentSwitchCase" : true } ],
     "brace-style": [ 2, "1tbs" ],
-    "camelcase": [ 2 ], // @todo change to error
+    "camelcase": [ 2 ],
     "comma-spacing": [ 2, { "before": false, "after": true } ],
     "consistent-this": [ 2, "self" ],
     "eol-last": [ 2 ],
@@ -71,7 +71,7 @@
     "no-lonely-if": [ 2 ],
     "no-multiple-empty-lines": [ 2 ],
     "no-nested-ternary": [ 2 ],
-    "no-underscore-dangle": [ 0 ], // Allow inherits super_
+    "no-underscore-dangle": [ 0 ],
     "quote-props": [ 2, "as-needed" ],
     "quotes": [ 2, "single", "avoid-escape" ],
     "semi": [ 2, "always" ],
