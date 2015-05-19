@@ -13,7 +13,7 @@ function sendRequest(url, token, method) {
 
     const options = {
       headers : { Authorization : `Bearer ${token}` },
-      url : url,
+      url : encodeURI(url),
       method : method,
     };
 
