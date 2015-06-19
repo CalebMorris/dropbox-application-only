@@ -21,7 +21,6 @@
     "templateStrings": true,
     "unicodeCodePointEscapes": true,
     "globalReturn": false,
-    "jsx": true
   },
   "rules": {
 
